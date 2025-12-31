@@ -1,0 +1,25 @@
+/*Fælles tekst */
+
+h1 {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+  color: #472d16;
+}
+
+h2 {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  color: #472d16;
+}
+
+h3 {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 90px;
+  color: #472d16;
+}
+
+a {
+  color: #472d16;
+}
