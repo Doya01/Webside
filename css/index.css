@@ -1,11 +1,19 @@
+/*grid*/
+
+.forsidenedre {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
 /*Forside-billede*/
 
 .forsidetop {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-image: url(/forsidebilleder/forside.save2.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: fill;
 }
 
 /*baggrunds-farve*/
@@ -19,7 +27,55 @@ body {
 .forside-box-venstre {
   width: 300px;
   background-color: #a37c53;
-  padding: 50px;
-  margin: 20px;
   border-radius: 95px;
+  height: 500px;
+  justify-self: center;
+  grid-column: 1;
+}
+
+/*animation*/
+
+.forside-box-venstre:hover {
+  width: 320px;
+}
+
+/*****************************/
+
+.forside-box-højre {
+  width: 300px;
+  background-color: #a37c53;
+  border-radius: 95px;
+  height: 500px;
+  justify-self: center;
+  grid-column: 3;
+}
+
+/*animation*/
+
+.forside-box-højre:hover {
+  width: 320px;
+}
+
+/*****************************/
+
+.velkommen {
+  margin-top: 10%;
+  text-align: center;
+}
+
+/*Tekst*/
+
+h3 {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 90px;
+  color: #472d16;
+  text-align: center;
+  height: 8em;
+  justify-self: center;
+  margin-top: 50%;
+}
+
+a {
+  color: #472d16;
 }
