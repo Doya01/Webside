@@ -11,14 +11,6 @@
 }
 /*************************************************/
 
-.pc_container {
-  width: 200px;
-  height: 300px;
-  border: 1px solid black;
-  margin-bottom: 25px;
-  justify-content: center;
-}
-
 .minpcboks {
   height: 200px;
   width: auto;
@@ -28,9 +20,6 @@
 
 /************************************************/
 
-.travel_container {
-}
-
 .traveldiariesboks {
   height: 200px;
   width: auto;
@@ -38,18 +27,12 @@
 
 /************************************************/
 
-.plante_container {
-}
-
 .plantoriumboks {
   height: 200px;
   width: auto;
 }
 
 /************************************************/
-
-.friihof_container {
-}
 
 .friihofboks {
   height: 200px;
