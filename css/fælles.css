@@ -12,6 +12,7 @@ body {
 
 /*footer*/
 footer {
+  margin-top: 10%;
   background-color: #a37c53;
   height: 300px;
 }
