@@ -1,0 +1,27 @@
+header {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  background-color: #a37c53;
+  height: 150px;
+  padding-top: 20px;
+}
+
+/*************************************/
+
+.proces_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*************************************/
+
+.pc_proces_tekst {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  color: #472d16;
+  text-align: justify;
+  letter-spacing: 5%;
+  line-height: 200%;
+  margin: 10%;
+}
