@@ -88,3 +88,19 @@ a {
 ::backdrop {
   backdrop-filter: blur(5px);
 }
+
+[popover] {
+  transition: 0.5s allow-discrete;
+}
+
+popover-open {
+  opacity: 1;
+  rotate: none;
+}
+
+:popover-open {
+  @starting-style {
+    opacity: 0;
+    scale: 0;
+  }
+}
