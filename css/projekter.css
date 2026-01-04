@@ -4,6 +4,19 @@ header {
   background-color: #a37c53;
   height: 150px;
   padding-top: 20px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 10px 10px rgba(145, 87, 65, 0.168);
+  padding: 25px 50px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 170px;
+  height: auto;
+  text-align: center;
 }
 
 .projekter_grid {
