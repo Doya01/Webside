@@ -49,9 +49,14 @@ header {
   margin: 10%;
 }
 
+.pcbillede3 {
+  border-radius: 90px;
+  margin: 10%;
+  margin-right: 10%;
+}
+
 .linktil {
   font-family: "cofo-glassier", sans-serif;
-  font-style: bold;
   font-size: 60px;
   color: #472d16;
   text-align: center;
@@ -66,10 +71,5 @@ header {
   text-align: justify;
   letter-spacing: 2px;
   line-height: 200%;
-  margin: 10%;
-}
-
-.pcbillede3 {
-  border-radius: 90px;
   margin: 10%;
 }
