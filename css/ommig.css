@@ -1,22 +1,30 @@
 header {
-  display: grid;
+  display: flex;
   grid-template-columns: 2fr 3fr;
   background-color: #a37c53;
-  height: 150px;
   padding-top: 20px;
   position: sticky;
+  height: 170px;
   top: 0;
-  box-shadow: 0 10px 10px #472d16(145, 87, 65, 0.168);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.168);
   padding: 25px 50px;
-  display: flex;
   align-items: center;
   z-index: 1000;
+  justify-content: center;
 }
 
 .logo img {
   width: 170px;
   height: auto;
   text-align: center;
+}
+
+.menu_tekst {
+  list-style-type: none;
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  color: #472d16;
 }
 /*****************grid*************************/
 
