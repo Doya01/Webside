@@ -25,6 +25,11 @@ header {
   font-style: normal;
   font-size: 40px;
   color: #472d16;
+  text-decoration: none;
+}
+
+.menu_tekst:hover {
+  text-decoration: underline;
 }
 
 /**************************/

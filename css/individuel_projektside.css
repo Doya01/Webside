@@ -24,6 +24,11 @@ header {
   font-style: normal;
   font-size: 2.5rem;
   color: #472d16;
+  text-decoration: none;
+}
+
+.menu_tekst:hover {
+  text-decoration: underline 0.5rem #472d16;
 }
 
 /*************************************/
@@ -52,7 +57,7 @@ header {
   font-size: 2.5rem;
   color: #472d16;
   text-align: justify;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   line-height: 200%;
   margin: 10%;
 }
@@ -86,13 +91,17 @@ header {
   margin-top: 20%;
 }
 
+.linktil:hover {
+  text-decoration: underline #472d16;
+}
+
 .læring_tekst {
   font-family: "cofo-glassier", sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   color: #472d16;
   text-align: justify;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   line-height: 200%;
   margin: 10%;
 }

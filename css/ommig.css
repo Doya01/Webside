@@ -25,6 +25,11 @@ header {
   font-style: normal;
   font-size: 40px;
   color: #472d16;
+  text-decoration: none;
+}
+
+.menu_tekst:hover {
+  text-decoration: underline;
 }
 /*****************grid*************************/
 
@@ -44,49 +49,57 @@ header {
 /*venstre kasse*/
 
 .ommig-box-venstre {
-  width: 300px;
-  background-color: #a37c53;
-  border-radius: 95px;
-  height: 500px;
+  width: 100%;
+  background-color: #472d16;
+  border-radius: 10%;
+  height: 50%;
   justify-self: center;
   grid-column: 1;
+  margin-left: 50%;
 }
 
-/*animation*/
-
-.ommig-box-venstre:hover {
-  width: 320px;
+.erfaring_overskrift {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 5rem;
+  color: #a37c53;
+  text-align: center;
 }
 
+.erfaring_tekst {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 3rem;
+  color: #a37c53;
+  text-align: center;
+  margin-top: 10%;
+  padding: 10%;
+}
 /*Højre kasse*/
 
 .ommig-box-højre {
-  width: 300px;
+  width: 40rem;
+  height: auto;
   background-color: #a37c53;
-  border-radius: 95px;
-  height: 500px;
+  border-radius: 2rem;
   justify-self: center;
   grid-column: 3;
+  margin-right: 30%;
 }
 
-/*animation*/
-
-.ommig-box-højre:hover {
-  width: 320px;
-}
-
-/*Tekst*/
-
-h3 {
+.semester_overskrift {
   font-family: "cofo-glassier", sans-serif;
   font-style: normal;
-  font-size: 90px;
+  font-size: 5rem;
   color: #472d16;
   text-align: center;
-  justify-self: center;
-  margin-top: 50%;
 }
 
-a {
+.semester_tekst {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 2rem;
   color: #472d16;
+  text-align: justify;
+  padding: 10%;
 }

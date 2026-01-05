@@ -22,10 +22,6 @@ footer {
   grid-template-columns: 1fr;
 }
 
-.p_footer {
-  padding-top: 20px;
-}
-
 .footer_mail {
   font-family: "cofo-glassier", sans-serif;
   font-style: normal;
@@ -41,34 +37,13 @@ footer {
 h1 {
   font-family: "cofo-glassier", sans-serif;
   font-style: normal;
-  font-size: 100px;
+  font-size: 7rem;
   color: #472d16;
   text-align: center;
   margin: 5%;
 }
 
-h2 {
-  font-family: "cofo-glassier", sans-serif;
-  font-style: normal;
-  color: #472d16;
-  font-size: 40px;
-}
-
-h3 {
-  font-family: "cofo-glassier", sans-serif;
-  font-style: normal;
-  font-size: 90px;
-  color: #472d16;
-  text-align: center;
-}
-
-p {
-  font-family: "cofo-glassier", sans-serif;
-  font-style: normal;
-  color: #472d16;
-  font-size: 40px;
-}
-
 a {
   color: #472d16;
+  text-decoration: none;
 }
