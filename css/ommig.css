@@ -34,7 +34,7 @@ header {
 /*****************grid*************************/
 
 .ommig_top {
-  background-image: url(/ommigbilleder/ommigside.save1.svg);
+  background-image: url(./ommigbilleder/ommigside.save1.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   object-fit: fill;

@@ -10,7 +10,7 @@
 /*Forside-billede*/
 
 .forsidetop {
-  background-image: url(/forsidebilleder/forside.save2.svg);
+  background-image: url(./forsidebilleder/forside.save2.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   object-fit: fill;
